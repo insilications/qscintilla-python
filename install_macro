@@ -1,0 +1,4 @@
+pushd Python
+cp pyproject-qt5.toml pyproject.toml
+sip-install
+popd
