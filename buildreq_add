@@ -4,3 +4,5 @@ sip
 buildreq-kde
 PyQt5
 PyQt-builder
+qscintilla
+qscintilla-dev

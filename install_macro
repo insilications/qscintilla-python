@@ -1,4 +1,10 @@
+pushd designer
+%make_install
+popd
 pushd Python
 cp pyproject-qt5.toml pyproject.toml
-sip-install
+sip-build --verbose --no-make
+cd build
+make -j16
+%make_install
 popd
